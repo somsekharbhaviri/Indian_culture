@@ -2,3 +2,6 @@
 install = "mvn install -DskipTests"
 build = "mvn clean package -DskipTests"
 start = "java -jar target/your-spring-boot-app.jar"
+
+[deploy]
+  deploy_command = "java -jar target/my-app.jar"
