@@ -1,0 +1,4 @@
+[phases]
+install = "mvn install -DskipTests"
+build = "mvn clean package -DskipTests"
+start = "java -jar target/your-spring-boot-app.jar"
